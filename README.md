@@ -14,8 +14,3 @@ None to be done
 Techniques:
 We can use Multiclass Classification as we will try and see whether the correlation has a bias to ALL-NBA, Draft Pick Number, Players having previously won championships, etc
 We will try and map a team to the result, using the features that we have above.
-
-
-# Deploy on Flask
-
-# Data Wrangling + Real WOrld Sources
