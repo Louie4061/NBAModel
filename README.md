@@ -14,3 +14,5 @@ None to be done
 Techniques:
 We can use Multiclass Classification as we will try and see whether the correlation has a bias to ALL-NBA, Draft Pick Number, Players having previously won championships, etc
 We will try and map a team to the result, using the features that we have above.
+
+This will be done with sklearn as it has lots of ML model stuff that I can use.
