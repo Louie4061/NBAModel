@@ -16,3 +16,4 @@ We can use Multiclass Classification as we will try and see whether the correlat
 We will try and map a team to the result, using the features that we have above.
 
 This will be done with sklearn as it has lots of ML model stuff that I can use.
+After using logistic regression os sklearn I learnt that the weighting with the sigmoid played a big part of the results, just giving points scored and points conceeded did not directly correlate to the training of a win. As we required certain edge weights in order to be used for our z value which is then passed into the sigmoid funciton.
