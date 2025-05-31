@@ -19,3 +19,5 @@ This will be done with sklearn as it has lots of ML model stuff that I can use.
 After using logistic regression os sklearn I learnt that the weighting with the sigmoid played a big part of the results, just giving points scored and points conceeded did not directly correlate to the training of a win. I was using original information such as whether the rebounds per game, assists per game, points conceded, points scored and as a result and if they won the game followed this regression. They did not, as it was not linear, i.e in our model, really large score deficit: 140 - 70 impacted our weighting coefficients and hence we got inaccurate results. However this linear regression proved to be effective when used with the number of wins a team had in a season and whether they made the playoffs.
 
 Initially I started off with an accuracy of 0.83 using just one seasons data. Once concatanating data from 2020 - 2025 the accuracy increased to 0.93. This however decreased when we got to 2017-18.
+
+I will now try and predict an NBA team future success by using information about their team, we will use 
